@@ -1,14 +1,14 @@
 "use strict";
-var num = 0;
+let num = 0;
 num = 23;
 function fn(a) {
     a += 'ffff';
 }
 fn('1323');
-var flag = true;
+let flag = true;
 // flag = 2324
 flag = false;
-var num1 = 10;
+let num1 = 10;
 num1 = 0xfff;
-num1 = 42;
-num1 = 80084;
+num1 = 0b101010;
+num1 = 0o234324;

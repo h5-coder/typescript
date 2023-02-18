@@ -1,5 +1,5 @@
 "use strict";
-(function () {
+(() => {
     function sayHi(str) {
         return '您好，' + str;
     }
